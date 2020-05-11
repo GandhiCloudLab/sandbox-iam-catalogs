@@ -7,7 +7,7 @@ resource "ibm_iam_access_group" "res_ag" {
 */
 
 data "ibm_iam_access_group" "accgrp123" {
-  access_group_name = "APPDEV-ENVIRONMENT-ADMINS"
+  access_group_name = "APPDEV-ENVIRONMENTS"
 }
 
 resource "ibm_iam_access_group_members" "res_groupmem_admins" {
